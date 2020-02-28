@@ -42,11 +42,11 @@ function load() {
 
     function preload() {
         let pictute = []
-        for (let i = 9; i <= 48; i++) {
+        for (let i = 10; i <= 48; i++) {
             pictute[i] = new Image()
-            if(pictute[i].src = `https://${window.location.host}/img/price-nav-anim/i0_00000000${i}.png`){
+            
                 pictute[i].src = `https://${window.location.host}/img/price-nav-anim/i0_00000000${i}.png`
-            }
+            
             
 
         }
