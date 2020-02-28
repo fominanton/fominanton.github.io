@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet/less" type="text/css" href="./css/main.less?ver=1.0" />
+    <script src="./js/less.min.js"></script>
+    <script src="./js/app.js"></script>
+
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=4673dec0-708c-488b-8657-ab496113d741&lang=ru_RU"
+        type="text/javascript"></script>
+    <title>Практик сити, Praktik Citi, фрезеровка, лезерная резка</title>
+</head>
+
+<body>
+    <header>
+        <div class="content-box header-inner">
+            <div class="logo">
+                <img src="./img/logo/Logo.png" alt="Логотип">
+                <div>
+                    <span class="logo-head">Praktik City</span>
+                    <span class="logo-sub">фрезерная резка</span>
+                </div>
+            </div>
+            <nav>
+                <div class="nav-top">
+                    <div class="nav-top-inner">
+                        <div class="location nav-top-item"> <img src="./img/icons/location-icon.png"
+                                alt="location-icon"> <span>Санкт-Петербург пр. Обуховской Обороны д. 7</span> </div>
+                        <div class="time nav-top-item"> <img src="./img/icons/time-icon.png" alt="time-icon">
+                            <span>Пн-Пт: 09.00-20.00</span> </div>
+                        <div class="mail nav-top-item"> <img src="./img/icons/mail-icon.png" alt="">
+                            <span>9875151@mail.ru</span> </div>
+                        <div class="phone nav-top-item"> <img src="./img/icons/phone-icon.png" alt=""> <span>8 (812)
+                                987-51-51</span> </div>
+                    </div>
+                </div>
+                <div class="nav-main">
+                    <a href="">Главная</a>
+                    <a href="">О компании</a>
+                    <a href="">Наши услуги</a>
+                    <a href="">Стоимость работ</a>
+                    <a href="">Портфолио</a>
+                    <a href="">Контакты</a>
+                </div>
+            </nav>
+        </div>
+        <h1>Высокоточная фрезерная резка <span class="sub-head">Объемных, фигурных или нестандартных деталей</span></h1>
+        <button class="button">Узнать больше</button>
+    </header>
+    <main class="content-box">
+        <section class="about-section">
+            <div>
+                <h2 class="left">О компании</h2>
+                <p>
+                    Специализацией нашей компании является фрезеровка листовых материалов – фанеры, пластика, МДФ,
+                    оргстекла, композитного материала и др. Несмотря на то, что наша компания существует всего несколько
+                    лет, мы уже успели заслужить доверие клиентов и в данный момент предоставляем услуги не только
+                    частным лицам, но и крупным мебельным производителям и рекламным агентствам
+                </p>
+                <p>
+                    Посмотрите видеоролик, чтобы узнать больше о деятельности
+                    нашей компании.</p>
+                <a class="button regular href">Подробнее</a>
+            </div>
+            <div class="about-video">
+                <img src="./img/video.png" alt="video">
+            </div>
+        </section>
+        <section class="price-section">
+            <h2>Стоимость фрезеровки</h2>
+            <div class="price-nav">
+                <div class="price-nav-item active" data-nav-price="Фанера/МДФ/ДСП">
+                    <div class="price-nav-img">
+                        <img src="./img/price-icons/img_1.png" alt="Фанера/МДФ/ДСП">
+                        <div class="anim"></div>
+                    </div>
+                    <span class="price-nav-sub">
+                        Фанера/МДФ/ДСП
+                    </span>
+                </div>
+
+                <div class="price-nav-item" data-nav-price="ПВХ">
+                    <div class="price-nav-img">
+                        <img src="./img/price-icons/img_2.png" alt="ПВХ">
+                        <div class="anim"></div>
+                    </div>
+                    <span class="price-nav-sub">
+                        ПВХ
+                    </span>
+                </div>
+
+                <div class="price-nav-item" data-nav-price="Композитные материалы">
+                    <div class="price-nav-img">
+                        <img src="./img/price-icons/img_3.png" alt="Композитные материалы">
+                        <div class="anim"></div>
+                    </div>
+                    <span class="price-nav-sub">
+                        Композитные материалы
+                    </span>
+                </div>
+
+                <div class="price-nav-item" data-nav-price="Оргстекло/Акрил">
+                    <div class="price-nav-img">
+                        <img src="./img/price-icons/img_4.png" alt="Оргстекло/Акрил">
+                        <div class="anim"></div>
+                    </div>
+                    <span class="price-nav-sub">
+                        Оргстекло/Акрил
+                    </span>
+                </div>
+
+                <div class="price-nav-item" data-nav-price="Поликарбонат литой">
+                    <div class="price-nav-img">
+                        <img src="./img/price-icons/img_5.png" alt="Поликарбонат литой">
+                        <div class="anim"></div>
+                    </div>
+                    <span class="price-nav-sub">
+                        Поликарбонат литой
+                    </span>
+                </div>
+
+                <div class="price-nav-item" data-nav-price="Дерево">
+                    <div class="price-nav-img">
+                        <img src="./img/price-icons/img_6.png" alt="Дерево">
+                        <div class="anim"></div>
+                    </div>
+                    <span class="price-nav-sub">
+                        Дерево
+                    </span>
+                </div>
+
+                <div class="price-nav-item" data-nav-price="3D фрезеровка">
+                    <div class="price-nav-img">
+                        <img src="./img/price-icons/img_7.png" alt="3D фрезеровка">
+                        <div class="anim"></div>
+                    </div>
+                    <span class="price-nav-sub">
+                        3D фрезеровка
+                    </span>
+                </div>
+
+            </div>
+
+            <div class="price-list ">
+                <h3>Фанера/МДФ/ДСП</h3>
+                <p>Цены указаны без стоимости материала.</p>
+                <div class="price-list-inner">
+                    <div class="price-list-table active" data-price-list="Фанера/МДФ/ДСП">
+                        <table>
+                            <tr>
+                                <th>Толщина материала, мм</th>
+                                <th>до 500 п.м.</th>
+                                <th>500-1000 п.м.</th>
+                                <th>от 1000 п.м.</th>
+                            </tr>
+                            <tr>
+                                <td>3-6</td>
+                                <td><span>35</span>руб.</td>
+                                <td><span>33</span>руб.</td>
+                                <td><span>31</span>руб.</td>
+                            </tr>
+                            <tr>
+                                <td>7-8</td>
+                                <td><span>45</span> руб.</td>
+                                <td><span>43</span> руб.</td>
+                                <td><span>41</span> руб.</td>
+                            </tr>
+                            <tr>
+                                <td>9-10</td>
+                                <td><span>50</span> руб.</td>
+                                <td><span>48</span> руб.</td>
+                                <td><span>45</span> руб.</td>
+                            </tr>
+                            <tr>
+                                <td>12-16</td>
+                                <td><span>60</span> руб.</td>
+                                <td><span>58</span> руб.</td>
+                                <td><span>55</span> руб.</td>
+                            </tr>
+                            <tr>
+                                <td>18-20</td>
+                                <td><span>75</span> руб.</td>
+                                <td><span>73</span> руб.</td>
+                                <td><span>70</span> руб.</td>
+                            </tr>
+                            <tr>
+                                <td>21-25</td>
+                                <td><span>100</span> руб.</td>
+                                <td><span>98</span> руб.</td>
+                                <td><span>95</span> руб.</td>
+                            </tr>
+                            <tr>
+                                <td>26-30</td>
+                                <td><span>125</span> руб.</td>
+                                <td><span>123</span> руб.</td>
+                                <td><span>120</span> руб.</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="price-list-table" data-price-list="ПВХ">
+                        <table>
+                            <tr>
+                                <th>Толщина материала, мм</th>
+                                <th>до 500 п.м.</th>
+                                <th>500-1000 п.м.</th>
+                                <th>от 1000 п.м.</th>
+                            </tr>
+                            <tr>
+                                <td>1-4</td>
+                                <td><span>24</span>руб.</td>
+                                <td><span>22</span>руб.</td>
+                                <td><span>20</span>руб.</td>
+                            </tr>
+                            <tr>
+                                <td>5-6</td>
+                                <td><span>26</span> руб.</td>
+                                <td><span>24</span> руб.</td>
+                                <td><span>22</span> руб.</td>
+                            </tr>
+                            <tr>
+                                <td>8-10</td>
+                                <td><span>29</span> руб.</td>
+                                <td><span>27</span> руб.</td>
+                                <td><span>25</span> руб.</td>
+
+                            </tr>
+                            <!-- 
+                        <tr>
+                            <td>12-16</td>
+                            <td><span>60</span> руб.</td>
+                            <td><span>58</span> руб.</td>
+                            <td><span>55</span> руб.</td>
+                        </tr>
+                        <tr>
+                            <td>18-20</td>
+                            <td><span>75</span> руб.</td>
+                            <td><span>73</span> руб.</td>
+                            <td><span>70</span> руб.</td>
+                        </tr>
+                        <tr>
+                            <td>21-25</td>
+                            <td><span>100</span> руб.</td>
+                            <td><span>98</span> руб.</td>
+                            <td><span>95</span> руб.</td>
+                        </tr>
+                        <tr>
+                            <td>26-30</td>
+                            <td><span>125</span> руб.</td>
+                            <td><span>123</span> руб.</td>
+                            <td><span>120</span> руб.</td>
+                        </tr>-->
+                        </table>
+                    </div>
+
+
+                    <div class="price-list-table" data-price-list="Композитные материалы">
+                        <table>
+                            <tr>
+                                <th>Толщина материала, мм</th>
+                                <th>до 500 п.м.</th>
+                                <th>500-1000 п.м.</th>
+                                <th>от 1000 п.м.</th>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><span>50</span>руб.</td>
+                                <td><span>50</span>руб.</td>
+                                <td><span>38</span>руб.</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><span>75</span> руб.</td>
+                                <td><span>75</span> руб.</td>
+                                <td><span>50</span> руб.</td>
+                            </tr>
+
+                        </table>
+                    </div>
+
+
+                    <div class="price-list-table" data-price-list="Оргстекло/Акрил">
+                        <table>
+                            <tr>
+                                <th>Толщина материала, мм</th>
+                                <th>до 500 п.м.</th>
+                                <th>500-1000 п.м.</th>
+                                <th>от 1000 п.м.</th>
+                            </tr>
+                            <tr>
+                                <td>1-4</td>
+                                <td><span>24</span>руб.</td>
+                                <td><span>22</span>руб.</td>
+                                <td><span>20</span>руб.</td>
+                            </tr>
+                            <tr>
+                                <td>5-6</td>
+                                <td><span>28</span> руб.</td>
+                                <td><span>26</span> руб.</td>
+                                <td><span>24</span> руб.</td>
+                            </tr>
+                            <tr>
+                                <td>8-10</td>
+                                <td><span>37</span> руб.</td>
+                                <td><span>35</span> руб.</td>
+                                <td><span>33</span> руб.</td>
+
+                            </tr>
+
+                            <tr>
+                                <td>12-16</td>
+                                <td><span>60</span> руб.</td>
+                                <td><span>58</span> руб.</td>
+                                <td><span>56</span> руб.</td>
+                            </tr>
+                            <tr>
+                                <td>18-20</td>
+                                <td><span>100</span> руб.</td>
+                                <td><span>98</span> руб.</td>
+                                <td><span>96</span> руб.</td>
+                            </tr>
+                            <tr>
+                                <td>от 20</td>
+                                <td colspan="3">Договорная</td>
+
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="price-list-table" data-price-list="Поликарбонат литой">
+                        <table>
+                            <tr>
+                                <th>Толщина материала, мм</th>
+                                <th>до 500 п.м.</th>
+                                <th>500-1000 п.м.</th>
+                                <th>от 1000 п.м.</th>
+                            </tr>
+                            <tr>
+                                <td>1-2</td>
+                                <td><span>34</span>руб.</td>
+                                <td><span>32</span>руб.</td>
+                                <td><span>30</span>руб.</td>
+                            </tr>
+                            <tr>
+                                <td>3-4</td>
+                                <td><span>36</span> руб.</td>
+                                <td><span>34</span> руб.</td>
+                                <td><span>32</span> руб.</td>
+                            </tr>
+                            <tr>
+                                <td>5-6</td>
+                                <td><span>42</span> руб.</td>
+                                <td><span>40</span> руб.</td>
+                                <td><span>38</span> руб.</td>
+
+                            </tr>
+
+                            <tr>
+                                <td>8-10</td>
+                                <td><span>56</span> руб.</td>
+                                <td><span>54</span> руб.</td>
+                                <td><span>52</span> руб.</td>
+                            </tr>
+
+                        </table>
+                    </div>
+
+
+                    <div class="price-list-table" data-price-list="Дерево">
+                        <table>
+                            <tr>
+                                <th>Толщина материала, мм</th>
+                                <th>до 500 п.м.</th>
+                                <th>500-1000 п.м.</th>
+                                <th>от 1000 п.м.</th>
+                            </tr>
+                            <tr>
+                                <td>3-6</td>
+                                <td><span>35</span>руб.</td>
+                                <td><span>33</span>руб.</td>
+                                <td><span>31</span>руб.</td>
+                            </tr>
+                            <tr>
+                                <td>7-8</td>
+                                <td><span>45</span> руб.</td>
+                                <td><span>43</span> руб.</td>
+                                <td><span>41</span> руб.</td>
+                            </tr>
+                            <tr>
+                                <td>9-10</td>
+                                <td><span>50</span> руб.</td>
+                                <td><span>48</span> руб.</td>
+                                <td><span>45</span> руб.</td>
+                            </tr>
+                            <tr>
+                                <td>12-16</td>
+                                <td><span>60</span> руб.</td>
+                                <td><span>58</span> руб.</td>
+                                <td><span>55</span> руб.</td>
+                            </tr>
+                            <tr>
+                                <td>18-20</td>
+                                <td><span>75</span> руб.</td>
+                                <td><span>73</span> руб.</td>
+                                <td><span>70</span> руб.</td>
+                            </tr>
+                            <tr>
+                                <td>21-25</td>
+                                <td><span>100</span> руб.</td>
+                                <td><span>98</span> руб.</td>
+                                <td><span>95</span> руб.</td>
+                            </tr>
+                            <tr>
+                                <td>26-30</td>
+                                <td><span>125</span> руб.</td>
+                                <td><span>123</span> руб.</td>
+                                <td><span>120</span> руб.</td>
+                            </tr>
+                        </table>
+                    </div>
+
+
+                    <div class="price-list-table" data-price-list="3D фрезеровка">
+                        <table>
+                            <tr>
+                                <th>Толщина материала, мм</th>
+                                <th>до 500 п.м.</th>
+                                <th>500-1000 п.м.</th>
+                                <th>от 1000 п.м.</th>
+                            </tr>
+                            <tr>
+                                <td>3-6</td>
+                                <td><span>35</span>руб.</td>
+                                <td><span>33</span>руб.</td>
+                                <td><span>31</span>руб.</td>
+                            </tr>
+                            <tr>
+                                <td>7-8</td>
+                                <td><span>45</span> руб.</td>
+                                <td><span>43</span> руб.</td>
+                                <td><span>41</span> руб.</td>
+                            </tr>
+                            <tr>
+                                <td>9-10</td>
+                                <td><span>50</span> руб.</td>
+                                <td><span>48</span> руб.</td>
+                                <td><span>45</span> руб.</td>
+                            </tr>
+                            <tr>
+                                <td>12-16</td>
+                                <td><span>60</span> руб.</td>
+                                <td><span>58</span> руб.</td>
+                                <td><span>55</span> руб.</td>
+                            </tr>
+                            <tr>
+                                <td>18-20</td>
+                                <td><span>75</span> руб.</td>
+                                <td><span>73</span> руб.</td>
+                                <td><span>70</span> руб.</td>
+                            </tr>
+                            <tr>
+                                <td>21-25</td>
+                                <td><span>100</span> руб.</td>
+                                <td><span>98</span> руб.</td>
+                                <td><span>95</span> руб.</td>
+                            </tr>
+                            <tr>
+                                <td>26-30</td>
+                                <td><span>125</span> руб.</td>
+                                <td><span>123</span> руб.</td>
+                                <td><span>120</span> руб.</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="price-list-about">
+                        <a href="" class="pdf">
+                            <span class="pdf-name">Скачать прайс-лист</span> <span class="pdf-size">PDF (270kb)</span>
+                        </a>
+                        <p>В макисмально короткие сроки и по самым привлекательным ценам мы поможем вам раскроить и
+                            выполнить фрезеровку нужного вам материала</p>
+                        <button class="button regular">Оставить заявку</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-section">
+            <h2>Наше портфолио</h2>
+
+            <div class="slider portfolio">
+                <div class="slider-card">
+                    <img src="./img/gallery/item-1.png" alt="" class="big">
+                    <img src="./img/gallery/item-2.png" alt="">
+                    <img src="./img/gallery/item-3.png" alt="">
+                    <img src="./img/gallery/item-4.png" alt="">
+                    <img src="./img/gallery/item-5.png" alt="">
+                    <img src="./img/gallery/item-6.png" alt="">
+                    <img src="./img/gallery/item-7.png" alt="">
+                    <img src="./img/gallery/item-2.png" alt="">
+                    <img src="./img/gallery/item-3.png" alt="">
+                    <img src="./img/gallery/item-4.png" alt="">
+                    <img src="./img/gallery/item-5.png" alt="">
+                    <img src="./img/gallery/item-6.png" alt="">
+                    <img src="./img/gallery/item-7.png" alt="">
+
+                </div>
+                <div class="slider-nav">
+                    <div class="slider-nav-item pre">
+                        <span class="arrow">
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                    <div class="slider-nav-item next active">
+
+                        <span class="arrow">
+                            <span></span>
+                            <span></span>
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="articles-section">
+            <h2 class="left">Статьи</h2>
+            <div class="slider articles">
+                <div class="slider-card ">
+                    <div class="article-card">
+                        <img src="./img/articles/img_1.png" alt="">
+                        <div class="article-card-info">
+                            <span class="date">22 июня 2019</span>
+                            <h3>Заголовок статьи, который может быть в две строки</h3>
+                            <p>Короткое превью (описание) статьи,
+                                с оптимальной рекомендованной
+                                длиной в несколько строк. </p>
+                            <div class="href">
+                                <a href="" class="regular">Подробнее</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="article-card">
+                        <img src="./img/articles/img_1.png" alt="">
+                        <div class="article-card-info">
+                            <span class="date">22 июня 2019</span>
+                            <h3>Заголовок статьи, который может быть в две строки</h3>
+                            <p>Короткое превью (описание) статьи,
+                                с оптимальной рекомендованной
+                                длиной в несколько строк. </p>
+                            <div class="href">
+                                <a href="" class="regular">Подробнее</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="article-card">
+                        <img src="./img/articles/img_1.png" alt="">
+                        <div class="article-card-info">
+                            <span class="date">22 июня 2019</span>
+                            <h3>Заголовок статьи, который может быть в две строки</h3>
+                            <p>Короткое превью (описание) статьи,
+                                с оптимальной рекомендованной
+                                длиной в несколько строк. </p>
+                            <div class="href">
+                                <a href="" class="regular">Подробнее</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="article-card">
+                        <img src="./img/articles/img_1.png" alt="">
+                        <div class="article-card-info">
+                            <span class="date">22 июня 2019</span>
+                            <h3>Заголовок статьи, который может быть в две строки</h3>
+                            <p>Короткое превью (описание) статьи,
+                                с оптимальной рекомендованной
+                                длиной в несколько строк. </p>
+                            <div class="href">
+                                <a href="" class="regular">Подробнее</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="article-card">
+                        <img src="./img/articles/img_1.png" alt="">
+                        <div class="article-card-info">
+                            <span class="date">22 июня 2019</span>
+                            <h3>Заголовок статьи, который может быть в две строки</h3>
+                            <p>Короткое превью (описание) статьи,
+                                с оптимальной рекомендованной
+                                длиной в несколько строк. </p>
+                            <div class="href">
+                                <a href="" class="regular">Подробнее</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="slider-nav">
+                    <div class="slider-nav-item pre">
+                        <span class="arrow">
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                    <div class="slider-nav-item next active">
+
+                        <span class="arrow">
+                            <span></span>
+                            <span></span>
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <br>
+        <br>
+    </main>
+    <div class="yandex-map" id="map" style="height: 500px; width: 100%;">
+
+
+
+
+    </div>
+
+    <footer>
+        <div class="footer-inner content-box">
+            <div>
+                <div class="logo">
+                    <img src="./img/logo/Logo.png" alt="Логотип">
+                    <div>
+                        <span class="logo-head">Praktik City</span>
+                        <span class="logo-sub">фрезерная резка</span>
+                    </div>
+                </div>
+                <div class="footer-contacts">
+                    <div class="location nav-top-item"> <img src="./img/icons/location-icon.png" alt="location-icon">
+                        <span>Санкт-Петербург пр. Обуховской Обороны д. 7</span> </div>
+                    <div class="time nav-top-item"> <img src="./img/icons/time-icon.png" alt="time-icon">
+                        <span>Пн-Пт: 09.00-20.00</span> </div>
+                    <div class="mail nav-top-item"> <img src="./img/icons/mail-icon.png" alt="">
+                        <span>9875151@mail.ru</span> </div>
+                    <div class="phone nav-top-item"> <img src="./img/icons/phone-icon.png" alt=""> <span>8 (812)
+                            987-51-51</span> </div>
+                </div>
+
+                <div class="social-href">
+                    <a href="" class="fb"></a>
+                    <a href="" class="tw"></a>
+                    <a href="" class="pn"></a>
+                    <a href="" class="inst"></a>
+                </div>
+            </div>
+            <div class="footer-information">
+                <h5>Информация</h5>
+                <div class="href">
+                    <a href="">Главная</a>
+                    <a href="">О компании</a>
+                    <a href="">Наши услуги</a>
+                    <a href="">Стоимость работ</a>
+                    <a href="">Портфолио</a>
+                    <a href="">Контакты</a>
+                </div>
+                
+
+                <p class="copyright">© 2020 Praktik Citi. Все права защищены.</p>
+            </div>
+            <div class="footer-form">
+                <form>
+                    <h4>Остались вопросы?</h4>
+                    <p>Ответим на них максимально оперативно</p>
+                    <input type="text" placeholder="Ваше имя" name="name" required>
+                    <input type="text" placeholder="Ваш e-mail" name="email" required>
+                    <textarea name="message" placeholder="Сообщение/вопрос..." required autocomplete="off" rows="3"></textarea>
+                    <button type="submit" class="button regular">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        ymaps.ready(init);
+
+        function init() {
+            var myMap = new ymaps.Map("map", {
+                center: [59.918070, 30.395279],
+                zoom: 13,
+                behaviors: ["drag", "dblClickZoom", "rightMouseButtonMagnifier", "multiTouch"]
+            });
+
+            var myPlacemark = new ymaps.Placemark([59.918070, 30.395279], {
+                balloonContent: 'Проспект Обуховской Обороны, 7'
+            }, {
+                iconLayout: 'default#image',
+                iconImageSize: [30, 42],
+                type: "Point",
+            });
+
+            myMap.geoObjects
+                .add(myPlacemark)
+
+            var location = ymaps.geolocation.get();
+
+            // Асинхронная обработка ответа.
+            location.then(
+                function (result) {
+                    // Добавление местоположения на карту.
+                    myMap.geoObjects.add(result.geoObjects)
+                },
+                function (err) {
+                    console.log('Ошибка: ' + err)
+                }
+            );
+        }
+    </script>
+
+
+</body>
+
+</html>
