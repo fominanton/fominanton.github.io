@@ -38,19 +38,7 @@ function load() {
 
 
 
-    preload()
-
-    function preload() {
-        let pictute = []
-        for (let i = 10; i <= 48; i++) {
-            pictute[i] = new Image()
-            
-                pictute[i].src = `https://${window.location.host}/img/price-nav-anim/i0_00000000${i}.png`
-            
-            
-
-        }
-    }
+ 
 
 
 
@@ -82,3 +70,16 @@ function load() {
 
 
 }
+   preload()
+
+    function preload() {
+        let pictute = []
+        for (let i = 10; i <= 48; i++) {
+            pictute[i] = new Image()
+            
+                pictute[i].src = `https://${window.location.host}/img/price-nav-anim/i0_00000000${i}.png`
+            
+            
+
+        }
+    }
