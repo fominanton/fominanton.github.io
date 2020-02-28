@@ -8,10 +8,14 @@ function load() {
             if(document.querySelector(".price-nav-item .anim.play")){
                 return false
             } */
+            if( !item.querySelector(".anim").classList.contains("play")) {
+
+           
                 item.querySelector(".anim").classList.add("play")
                 setTimeout(() => {
                     item.querySelector(".anim").classList.remove("play") 
                 }, 2400);
+            }
             
         
         })
