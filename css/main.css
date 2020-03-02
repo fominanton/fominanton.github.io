@@ -88,6 +88,18 @@ a.pdf .pdf-size {
   line-height: 1.429;
 }
 h1 {
+  text-align: center;
+  margin-top: 121px;
+  margin-bottom: 0px;
+}
+h1 .sub-head {
+  display: block;
+  font-size: 34px;
+  font-family: "Museo Sans Cyrl";
+  font-weight: 300;
+  margin-top: 30px;
+}
+h1 {
   font-family: "Playfair Display Bold";
   text-shadow: 6.128px 5.142px 16px rgba(58, 36, 18, 0.004);
   color: #ffffff;
@@ -341,18 +353,6 @@ header .nav-top .nav-top-inner {
   align-items: center;
   height: 100%;
 }
-header h1 {
-  text-align: center;
-  margin-top: 121px;
-  margin-bottom: 0px;
-}
-header h1 .sub-head {
-  display: block;
-  font-size: 34px;
-  font-family: "Museo Sans Cyrl";
-  font-weight: 300;
-  margin-top: 30px;
-}
 header .button {
   margin: 0 auto;
   display: block;
@@ -394,6 +394,7 @@ header .button {
   margin-top: 90px;
 }
 .about-section .about-video {
+  min-width: 570px;
   margin-left: 47px;
 }
 .portfolio-section {
@@ -447,6 +448,7 @@ header .button {
   width: 100%;
   height: 100%;
   border-radius: 50%;
+  background-size: cover;
   z-index: 10;
   top: 0px;
 }
@@ -458,238 +460,238 @@ header .button {
     background: none;
   }
   2% {
-    background: url("../img/price-nav-anim/i0_0000000009.png");
+    background: url("../img/price-nav-anim/i0_0000000009.png") center / 100%;
   }
   3% {
-    background: url("../img/price-nav-anim/i0_0000000010.png");
+    background: url("../img/price-nav-anim/i0_0000000010.png") center / 100%;
   }
   4% {
-    background: url("../img/price-nav-anim/i0_0000000010.png");
+    background: url("../img/price-nav-anim/i0_0000000010.png") center / 100%;
   }
   5% {
-    background: url("../img/price-nav-anim/i0_0000000011.png");
+    background: url("../img/price-nav-anim/i0_0000000011.png") center / 100%;
   }
   6% {
-    background: url("../img/price-nav-anim/i0_0000000011.png");
+    background: url("../img/price-nav-anim/i0_0000000011.png") center / 100%;
   }
   7% {
-    background: url("../img/price-nav-anim/i0_0000000012.png");
+    background: url("../img/price-nav-anim/i0_0000000012.png") center / 100%;
   }
   8% {
-    background: url("../img/price-nav-anim/i0_0000000012.png");
+    background: url("../img/price-nav-anim/i0_0000000012.png") center / 100%;
   }
   9% {
-    background: url("../img/price-nav-anim/i0_0000000013.png");
+    background: url("../img/price-nav-anim/i0_0000000013.png") center / 100%;
   }
   10% {
-    background: url("../img/price-nav-anim/i0_0000000013.png");
+    background: url("../img/price-nav-anim/i0_0000000013.png") center / 100%;
   }
   11% {
-    background: url("../img/price-nav-anim/i0_0000000014.png");
+    background: url("../img/price-nav-anim/i0_0000000014.png") center / 100%;
   }
   12% {
-    background: url("../img/price-nav-anim/i0_0000000014.png");
+    background: url("../img/price-nav-anim/i0_0000000014.png") center / 100%;
   }
   13% {
-    background: url("../img/price-nav-anim/i0_0000000015.png");
+    background: url("../img/price-nav-anim/i0_0000000015.png") center / 100%;
   }
   14% {
-    background: url("../img/price-nav-anim/i0_0000000015.png");
+    background: url("../img/price-nav-anim/i0_0000000015.png") center / 100%;
   }
   15% {
-    background: url("../img/price-nav-anim/i0_0000000016.png");
+    background: url("../img/price-nav-anim/i0_0000000016.png") center / 100%;
   }
   16% {
-    background: url("../img/price-nav-anim/i0_0000000016.png");
+    background: url("../img/price-nav-anim/i0_0000000016.png") center / 100%;
   }
   17% {
-    background: url("../img/price-nav-anim/i0_0000000017.png");
+    background: url("../img/price-nav-anim/i0_0000000017.png") center / 100%;
   }
   18% {
-    background: url("../img/price-nav-anim/i0_0000000017.png");
+    background: url("../img/price-nav-anim/i0_0000000017.png") center / 100%;
   }
   19% {
-    background: url("../img/price-nav-anim/i0_0000000018.png");
+    background: url("../img/price-nav-anim/i0_0000000018.png") center / 100%;
   }
   20% {
-    background: url("../img/price-nav-anim/i0_0000000018.png");
+    background: url("../img/price-nav-anim/i0_0000000018.png") center / 100%;
   }
   21% {
-    background: url("../img/price-nav-anim/i0_0000000019.png");
+    background: url("../img/price-nav-anim/i0_0000000019.png") center / 100%;
   }
   22% {
-    background: url("../img/price-nav-anim/i0_0000000019.png");
+    background: url("../img/price-nav-anim/i0_0000000019.png") center / 100%;
   }
   23% {
-    background: url("../img/price-nav-anim/i0_0000000020.png");
+    background: url("../img/price-nav-anim/i0_0000000020.png") center / 100%;
   }
   24% {
-    background: url("../img/price-nav-anim/i0_0000000020.png");
+    background: url("../img/price-nav-anim/i0_0000000020.png") center / 100%;
   }
   25% {
-    background: url("../img/price-nav-anim/i0_0000000021.png");
+    background: url("../img/price-nav-anim/i0_0000000021.png") center / 100%;
   }
   26% {
-    background: url("../img/price-nav-anim/i0_0000000021.png");
+    background: url("../img/price-nav-anim/i0_0000000021.png") center / 100%;
   }
   27% {
-    background: url("../img/price-nav-anim/i0_0000000022.png");
+    background: url("../img/price-nav-anim/i0_0000000022.png") center / 100%;
   }
   28% {
-    background: url("../img/price-nav-anim/i0_0000000022.png");
+    background: url("../img/price-nav-anim/i0_0000000022.png") center / 100%;
   }
   29% {
-    background: url("../img/price-nav-anim/i0_0000000023.png");
+    background: url("../img/price-nav-anim/i0_0000000023.png") center / 100%;
   }
   30% {
-    background: url("../img/price-nav-anim/i0_0000000023.png");
+    background: url("../img/price-nav-anim/i0_0000000023.png") center / 100%;
   }
   31% {
-    background: url("../img/price-nav-anim/i0_0000000024.png");
+    background: url("../img/price-nav-anim/i0_0000000024.png") center / 100%;
   }
   32% {
-    background: url("../img/price-nav-anim/i0_0000000024.png");
+    background: url("../img/price-nav-anim/i0_0000000024.png") center / 100%;
   }
   33% {
-    background: url("../img/price-nav-anim/i0_0000000025.png");
+    background: url("../img/price-nav-anim/i0_0000000025.png") center / 100%;
   }
   34% {
-    background: url("../img/price-nav-anim/i0_0000000025.png");
+    background: url("../img/price-nav-anim/i0_0000000025.png") center / 100%;
   }
   35% {
-    background: url("../img/price-nav-anim/i0_0000000026.png");
+    background: url("../img/price-nav-anim/i0_0000000026.png") center / 100%;
   }
   36% {
-    background: url("../img/price-nav-anim/i0_0000000026.png");
+    background: url("../img/price-nav-anim/i0_0000000026.png") center / 100%;
   }
   37% {
-    background: url("../img/price-nav-anim/i0_0000000027.png");
+    background: url("../img/price-nav-anim/i0_0000000027.png") center / 100%;
   }
   38% {
-    background: url("../img/price-nav-anim/i0_0000000027.png");
+    background: url("../img/price-nav-anim/i0_0000000027.png") center / 100%;
   }
   39% {
-    background: url("../img/price-nav-anim/i0_0000000028.png");
+    background: url("../img/price-nav-anim/i0_0000000028.png") center / 100%;
   }
   40% {
-    background: url("../img/price-nav-anim/i0_0000000028.png");
+    background: url("../img/price-nav-anim/i0_0000000028.png") center / 100%;
   }
   41% {
-    background: url("../img/price-nav-anim/i0_0000000029.png");
+    background: url("../img/price-nav-anim/i0_0000000029.png") center / 100%;
   }
   42% {
-    background: url("../img/price-nav-anim/i0_0000000029.png");
+    background: url("../img/price-nav-anim/i0_0000000029.png") center / 100%;
   }
   43% {
-    background: url("../img/price-nav-anim/i0_0000000030.png");
+    background: url("../img/price-nav-anim/i0_0000000030.png") center / 100%;
   }
   44% {
-    background: url("../img/price-nav-anim/i0_0000000030.png");
+    background: url("../img/price-nav-anim/i0_0000000030.png") center / 100%;
   }
   45% {
-    background: url("../img/price-nav-anim/i0_0000000031.png");
+    background: url("../img/price-nav-anim/i0_0000000031.png") center / 100%;
   }
   46% {
-    background: url("../img/price-nav-anim/i0_0000000031.png");
+    background: url("../img/price-nav-anim/i0_0000000031.png") center / 100%;
   }
   47% {
-    background: url("../img/price-nav-anim/i0_0000000032.png");
+    background: url("../img/price-nav-anim/i0_0000000032.png") center / 100%;
   }
   48% {
-    background: url("../img/price-nav-anim/i0_0000000032.png");
+    background: url("../img/price-nav-anim/i0_0000000032.png") center / 100%;
   }
   49% {
-    background: url("../img/price-nav-anim/i0_0000000033.png");
+    background: url("../img/price-nav-anim/i0_0000000033.png") center / 100%;
   }
   50% {
-    background: url("../img/price-nav-anim/i0_0000000033.png");
+    background: url("../img/price-nav-anim/i0_0000000033.png") center / 100%;
   }
   51% {
-    background: url("../img/price-nav-anim/i0_0000000034.png");
+    background: url("../img/price-nav-anim/i0_0000000034.png") center / 100%;
   }
   52% {
-    background: url("../img/price-nav-anim/i0_0000000034.png");
+    background: url("../img/price-nav-anim/i0_0000000034.png") center / 100%;
   }
   53% {
-    background: url("../img/price-nav-anim/i0_0000000035.png");
+    background: url("../img/price-nav-anim/i0_0000000035.png") center / 100%;
   }
   54% {
-    background: url("../img/price-nav-anim/i0_0000000035.png");
+    background: url("../img/price-nav-anim/i0_0000000035.png") center / 100%;
   }
   55% {
-    background: url("../img/price-nav-anim/i0_0000000036.png");
+    background: url("../img/price-nav-anim/i0_0000000036.png") center / 100%;
   }
   56% {
-    background: url("../img/price-nav-anim/i0_0000000036.png");
+    background: url("../img/price-nav-anim/i0_0000000036.png") center / 100%;
   }
   57% {
-    background: url("../img/price-nav-anim/i0_0000000037.png");
+    background: url("../img/price-nav-anim/i0_0000000037.png") center / 100%;
   }
   58% {
-    background: url("../img/price-nav-anim/i0_0000000037.png");
+    background: url("../img/price-nav-anim/i0_0000000037.png") center / 100%;
   }
   59% {
-    background: url("../img/price-nav-anim/i0_0000000038.png");
+    background: url("../img/price-nav-anim/i0_0000000038.png") center / 100%;
   }
   60% {
-    background: url("../img/price-nav-anim/i0_0000000038.png");
+    background: url("../img/price-nav-anim/i0_0000000038.png") center / 100%;
   }
   61% {
-    background: url("../img/price-nav-anim/i0_0000000039.png");
+    background: url("../img/price-nav-anim/i0_0000000039.png") center / 100%;
   }
   62% {
-    background: url("../img/price-nav-anim/i0_0000000039.png");
+    background: url("../img/price-nav-anim/i0_0000000039.png") center / 100%;
   }
   63% {
-    background: url("../img/price-nav-anim/i0_0000000040.png");
+    background: url("../img/price-nav-anim/i0_0000000040.png") center / 100%;
   }
   64% {
-    background: url("../img/price-nav-anim/i0_0000000040.png");
+    background: url("../img/price-nav-anim/i0_0000000040.png") center / 100%;
   }
   65% {
-    background: url("../img/price-nav-anim/i0_0000000041.png");
+    background: url("../img/price-nav-anim/i0_0000000041.png") center / 100%;
   }
   66% {
-    background: url("../img/price-nav-anim/i0_0000000041.png");
+    background: url("../img/price-nav-anim/i0_0000000041.png") center / 100%;
   }
   67% {
-    background: url("../img/price-nav-anim/i0_0000000042.png");
+    background: url("../img/price-nav-anim/i0_0000000042.png") center / 100%;
   }
   68% {
-    background: url("../img/price-nav-anim/i0_0000000042.png");
+    background: url("../img/price-nav-anim/i0_0000000042.png") center / 100%;
   }
   69% {
-    background: url("../img/price-nav-anim/i0_0000000043.png");
+    background: url("../img/price-nav-anim/i0_0000000043.png") center / 100%;
   }
   70% {
-    background: url("../img/price-nav-anim/i0_0000000043.png");
+    background: url("../img/price-nav-anim/i0_0000000043.png") center / 100%;
   }
   71% {
-    background: url("../img/price-nav-anim/i0_0000000044.png");
+    background: url("../img/price-nav-anim/i0_0000000044.png") center / 100%;
   }
   72% {
-    background: url("../img/price-nav-anim/i0_0000000044.png");
+    background: url("../img/price-nav-anim/i0_0000000044.png") center / 100%;
   }
   73% {
-    background: url("../img/price-nav-anim/i0_0000000045.png");
+    background: url("../img/price-nav-anim/i0_0000000045.png") center / 100%;
   }
   74% {
-    background: url("../img/price-nav-anim/i0_0000000045.png");
+    background: url("../img/price-nav-anim/i0_0000000045.png") center / 100%;
   }
   75% {
-    background: url("../img/price-nav-anim/i0_0000000046.png");
+    background: url("../img/price-nav-anim/i0_0000000046.png") center / 100%;
   }
   76% {
-    background: url("../img/price-nav-anim/i0_0000000046.png");
+    background: url("../img/price-nav-anim/i0_0000000046.png") center / 100%;
   }
   77% {
-    background: url("../img/price-nav-anim/i0_0000000047.png");
+    background: url("../img/price-nav-anim/i0_0000000047.png") center / 100%;
   }
   78% {
-    background: url("../img/price-nav-anim/i0_0000000047.png");
+    background: url("../img/price-nav-anim/i0_0000000047.png") center / 100%;
   }
   79% {
-    background: url("../img/price-nav-anim/i0_0000000048.png");
+    background: url("../img/price-nav-anim/i0_0000000048.png") center / 100%;
   }
   80% {
     background: none;
@@ -807,7 +809,7 @@ header .button {
   display: flex;
   flex-shrink: 1;
 }
-.slider.articles .slider-card .article-card {
+.slider.articles .slider-card .slider-item {
   margin-right: 30px;
 }
 .slider.portfolio .slider-card {
@@ -822,6 +824,12 @@ header .button {
 .slider.portfolio .slider-card .big {
   grid-row-start: 1;
   grid-row-end: 3;
+}
+.slider.portfolio .slider-card .slider-item {
+  overflow: hidden;
+}
+.slider.portfolio .slider-card .slider-item.show {
+  display: block;
 }
 .slider .slider-nav {
   display: flex;
@@ -891,4 +899,127 @@ header .button {
   transform: rotate(-45deg);
   bottom: -3px;
   right: 0px;
+}
+.slider .mobile-menu-button {
+  display: none;
+}
+@media (max-width: 1170px) {
+  .content-box {
+    max-width: 95%;
+  }
+  header {
+    height: auto;
+    padding-bottom: 30px;
+  }
+  header nav {
+    display: none;
+  }
+  header .header-inner {
+    padding-top: 33px;
+    justify-content: center;
+    border-bottom: none;
+  }
+  header .button {
+    border-width: 1px;
+    border-color: #ffffff;
+    border-style: solid;
+    background: rgba(0, 0, 0, 0);
+  }
+  h1 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  h1 .sub-head {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  .about-section {
+    flex-direction: column;
+  }
+  .about-section .about-video {
+    margin-left: 0px;
+    min-width: 95%;
+    height: 350px;
+    margin-top: 20px;
+  }
+  .price-list .price-list-inner {
+    flex-direction: column;
+  }
+  .price-list-table table {
+    width: 100%;
+  }
+  .price-list {
+    margin-top: 40px;
+  }
+  .price-list .price-list-about {
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+  .price-list .price-list-about p {
+    margin-top: 25px;
+    margin-bottom: 0px;
+  }
+  .price-nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    grid-gap: 15px;
+    justify-content: center;
+  }
+  .price-nav .price-nav-item {
+    justify-content: flex-start;
+  }
+  .price-nav .price-nav-item .price-nav-img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  .price-nav .price-nav-item .price-nav-img img {
+    width: 100%;
+  }
+  .price-section {
+    margin-top: 60px;
+  }
+  .slider.articles .slider-card .slider-item {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-right: 0px;
+  }
+  .footer-form {
+    display: none;
+  }
+  footer .footer-inner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .footer-inner > div {
+    max-width: 300px;
+    padding: 0px;
+  }
+  footer .footer-inner .footer-information h5 {
+    display: none;
+  }
+  footer .footer-inner .footer-information .href {
+    display: none;
+  }
+  footer .footer-inner .footer-information .copyright {
+    margin-top: 50px;
+  }
+  footer .footer-inner .social-href {
+    margin-top: 48px;
+    text-align: center;
+  }
+  footer .footer-inner .logo {
+    justify-content: center;
+  }
+  .mobile-menu-button {
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+  }
 }
