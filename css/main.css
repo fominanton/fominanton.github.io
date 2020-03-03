@@ -771,6 +771,10 @@
   position: relative;
   margin-bottom: 170px;
 }
+.new_css .article-card img {
+  max-width: 100%;
+  max-height: 250px;
+}
 .new_css .article-card .article-card-info {
   position: absolute;
   width: 320px;
@@ -784,6 +788,10 @@
   padding-bottom: 35px;
   padding: 20px;
   box-sizing: border-box;
+}
+.new_css .article-card .article-card-info p {
+  max-height: 72px;
+  overflow: hidden;
 }
 .new_css .article-card .article-card-info .date {
   font-size: 14px;
