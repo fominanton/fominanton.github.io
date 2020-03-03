@@ -768,6 +768,9 @@
 .new_css .price-list-table table td span {
   font-weight: 700;
 }
+.new_css #map {
+  margin-top: 50px;
+}
 .new_css .article-card {
   width: 370px;
   height: 250px;
