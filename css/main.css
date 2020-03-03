@@ -410,7 +410,7 @@
   margin-top: 70px;
 }
 .new_css .portfolio-section:hover {
-  color: #d4823f;
+  color: #d4823f !important;
   background: none;
 }
 .new_css .ngg-navigation span.current {
@@ -425,7 +425,7 @@
   border: 1px solid #d4823f;
 }
 .new_css .ngg-navigation span.current:hover {
-  color: #d4823f;
+  color: #d4823f !important;
   background: none;
 }
 .new_css .ngg-navigation {
@@ -444,7 +444,7 @@
   box-sizing: border-box;
 }
 .new_css .ngg-navigation a.page-numbers:hover {
-  color: #d4823f;
+  color: #d4823f !important;
   background: none;
 }
 .new_css .ngg-navigation a.next,
@@ -464,7 +464,7 @@
 .new_css .ngg-navigation a.prev:hover,
 .new_css .ngg-navigation span.next:hover,
 .new_css .ngg-navigation span.prev:hover {
-  color: #d4823f;
+  color: #d4823f !important;
   background: none;
 }
 .new_css .price-section {
