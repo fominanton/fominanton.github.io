@@ -182,6 +182,12 @@
   bottom: 0px;
   margin: auto 0;
 }
+.new_css {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Museo Sans Cyrl";
+}
 .new_css body {
   padding: 0px;
   margin: 0px;
