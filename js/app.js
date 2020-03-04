@@ -17,13 +17,14 @@ function load() {
 
         })
         item.onclick = function () {
+
+            let category = item.getAttribute("data-nav-price")
+            document.querySelector(".price-nav-item.active").classList.remove("active")
+            item.classList.add("active")
+            document.querySelector(".price-section .price-list-table.active").classList.remove("active")
+            document.querySelector(`.price-section .price-list-table[data-price-list='${category}']`).classList.add("active")
+            document.querySelector(`.price-section .price-list-table[data-price-list='${category}']`).parentNode.parentNode.querySelector("h3").innerHTML = category
             if (screen.width < 1170) {
-                let category = item.getAttribute("data-nav-price")
-                document.querySelector(".price-nav-item.active").classList.remove("active")
-                item.classList.add("active")
-                document.querySelector(".price-section .price-list-table.active").classList.remove("active")
-                document.querySelector(`.price-section .price-list-table[data-price-list='${category}']`).classList.add("active")
-                document.querySelector(`.price-section .price-list-table[data-price-list='${category}']`).parentNode.parentNode.querySelector("h3").innerHTML = category
                 document.querySelector(`.price-section .price-list-table[data-price-list='${category}']`).scrollIntoView({ block: "center", inline: "center", behavior: "smooth" });
             }
         }
