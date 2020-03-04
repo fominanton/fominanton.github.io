@@ -17,52 +17,54 @@ function load() {
 
         })
         item.onclick = function () {
-            let category = item.getAttribute("data-nav-price")
-            document.querySelector(".price-nav-item.active").classList.remove("active")
-            item.classList.add("active")
-            document.querySelector(".price-section .price-list-table.active").classList.remove("active")
-            document.querySelector(`.price-section .price-list-table[data-price-list='${category}']`).classList.add("active")
-            document.querySelector(`.price-section .price-list-table[data-price-list='${category}']`).parentNode.parentNode.querySelector("h3").innerHTML = category
-            document.querySelector(`.price-section .price-list-table[data-price-list='${category}']`).scrollIntoView({ block: "center", inline: "center", behavior: "smooth" });
+            if (screen.width < 1170) {
+                let category = item.getAttribute("data-nav-price")
+                document.querySelector(".price-nav-item.active").classList.remove("active")
+                item.classList.add("active")
+                document.querySelector(".price-section .price-list-table.active").classList.remove("active")
+                document.querySelector(`.price-section .price-list-table[data-price-list='${category}']`).classList.add("active")
+                document.querySelector(`.price-section .price-list-table[data-price-list='${category}']`).parentNode.parentNode.querySelector("h3").innerHTML = category
+                document.querySelector(`.price-section .price-list-table[data-price-list='${category}']`).scrollIntoView({ block: "center", inline: "center", behavior: "smooth" });
+            }
         }
     })
 
 
-   
 
 
-    document.querySelector("header .more").addEventListener("click" , function(){
-        document.querySelector(`main`).scrollIntoView({  inline: "center", behavior: "smooth" });
+
+    document.querySelector("header .more").addEventListener("click", function () {
+        document.querySelector(`main`).scrollIntoView({ inline: "center", behavior: "smooth" });
     })
     let slider_nav = document.querySelectorAll('.slider-nav')
-  
-    
-        slider_nav.forEach((item) => {
-            let slider = item.parentNode.querySelector(".slider-card")
-            console.l
-            let next = item.querySelector(".next")
-            let pre = item.querySelector(".pre")
-    
-            next.onclick = function () {
-                let width = slider.clientWidth
-                slider.style.right = `${width}px`
-                next.classList.remove("active")
-                pre.classList.add("active")
-            }
-    
-            pre.onclick = function () {
-                slider.style.right = "0px"
-                next.classList.add("active")
-                pre.classList.remove("active")
-            }
-        })
-        
-        document.querySelector(".mobile-menu-button").onclick = function(){
-            this.classList.toggle("active")
-            document.querySelector("header nav").classList.toggle("active")
+
+
+    slider_nav.forEach((item) => {
+        let slider = item.parentNode.querySelector(".slider-card")
+        console.l
+        let next = item.querySelector(".next")
+        let pre = item.querySelector(".pre")
+
+        next.onclick = function () {
+            let width = slider.clientWidth
+            slider.style.right = `${width}px`
+            next.classList.remove("active")
+            pre.classList.add("active")
         }
-    
-    
+
+        pre.onclick = function () {
+            slider.style.right = "0px"
+            next.classList.add("active")
+            pre.classList.remove("active")
+        }
+    })
+
+    document.querySelector(".mobile-menu-button").onclick = function () {
+        this.classList.toggle("active")
+        document.querySelector("header nav").classList.toggle("active")
+    }
+
+
 
 
 
