@@ -467,6 +467,9 @@
   color: #d4823f !important;
   background: none;
 }
+.new_css .portfolio-mob {
+  display: none;
+}
 .new_css .price-section {
   margin-top: 115px;
 }
@@ -1059,6 +1062,12 @@
   }
   .new_css .price-section {
     margin-top: 60px;
+  }
+  .new_css .portfolio-desc {
+    display: none;
+  }
+  .new_css .portfolio-mob {
+    display: block;
   }
   .new_css .slider.articles .slider-card .slider-item {
     min-width: 100%;
