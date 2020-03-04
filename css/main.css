@@ -992,13 +992,65 @@
     height: auto;
     padding-bottom: 30px;
   }
-  .new_css header nav {
-    display: none;
-  }
   .new_css header .header-inner {
     padding-top: 33px;
     justify-content: center;
     border-bottom: none;
+  }
+  .new_css header .header-inner nav {
+    display: flex;
+    position: absolute;
+    margin-left: 0px;
+    top: -100%;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: -moz-linear-gradient(140deg, #280c0d 0%, #382410 99%);
+    background-image: -webkit-linear-gradient(140deg, #280c0d 0%, #382410 99%);
+    background-image: -ms-linear-gradient(140deg, #280c0d 0%, #382410 99%);
+    overflow: auto;
+  }
+  .new_css header .header-inner nav.active {
+    top: 0%;
+    transition: all 0.3s;
+  }
+  .new_css header .header-inner nav .nav-main {
+    order: 1;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  .new_css header .header-inner nav .nav-main a {
+    margin-bottom: 30px;
+  }
+  .new_css header .header-inner nav .nav-top {
+    order: 2;
+    height: auto;
+  }
+  .new_css header .header-inner nav .nav-top .nav-top-inner {
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: flex-start;
+    width: 206px;
+  }
+  .new_css header .header-inner nav .nav-top .nav-top-inner .nav-top-item {
+    margin-bottom: 25px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 10px auto;
+    grid-gap: 10px;
+  }
+  .new_css header .header-inner nav .nav-top .nav-top-inner .nav-top-item img {
+    margin-right: 0px;
+    justify-self: center;
+  }
+  .new_css header .header-inner nav .nav-top {
+    background: none;
+    position: relative;
   }
   .new_css header .button {
     border-width: 1px;
@@ -1104,9 +1156,40 @@
     justify-content: center;
   }
   .new_css .mobile-menu-button {
-    display: block;
+    display: grid;
     position: absolute;
+    width: 50px;
+    height: 50px;
     top: 50px;
     left: 30px;
+    grid-gap: 6px;
+    box-sizing: border-box;
+    grid-template-rows: 5px 5px 5px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    z-index: 10;
+  }
+  .new_css .mobile-menu-button span {
+    width: 30px;
+    height: 4px;
+    background: #ff9f07;
+    position: relative;
+  }
+  .new_css .mobile-menu-button.active span:nth-child(1) {
+    transform: rotate(45deg);
+    position: relative;
+    top: 10px;
+  }
+  .new_css .mobile-menu-button.active span:nth-child(2) {
+    display: none;
+  }
+  .new_css .mobile-menu-button.active span:nth-child(3) {
+    transform: rotate(-45deg);
+    position: relative;
+    bottom: 1px;
+  }
+  .new_css .over {
+    overflow: hidden;
   }
 }
