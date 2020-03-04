@@ -4,10 +4,7 @@ function load() {
     let price_nav = document.querySelectorAll(".price-nav-item")
     price_nav.forEach(function (item) {
         item.addEventListener("mouseover", () => {
-            /*
-            if(document.querySelector(".price-nav-item .anim.play")){
-                return false
-            } */
+
             if (!item.querySelector(".anim").classList.contains("play")) {
 
 
@@ -30,21 +27,7 @@ function load() {
         }
     })
 
-/*
-    let portfolio_slider_item = document.querySelectorAll(".slider.portfolio .slider-card .slider-item")
-    let slider_count = 8
-    for (let i = 0; i < slider_count; i++) {
-        portfolio_slider_item[i].classList.add("show")
-        if (portfolio_slider_item[i].classList.contains("big")) {
-            slider_count--
-        }
-    }
-    document.querySelector(".slider.portfolio").setAttribute("data-last-item", slider_count);
-    document.querySelector(".slider.portfolio").setAttribute("data-first-item", 0);
-    document.querySelector(".slider.portfolio").setAttribute("data-slide", 1);
-    document.querySelector(".slider.portfolio").setAttribute("data-count", 7);
 
-*/
    
 
 
@@ -52,58 +35,7 @@ function load() {
         document.querySelector(`main`).scrollIntoView({  inline: "center", behavior: "smooth" });
     })
     let slider_nav = document.querySelectorAll('.slider-nav')
-    /*
-    slider_nav.forEach((item) => {
-        let slider = item.parentNode
-        let next = item.querySelector(".next")
-        let pre = item.querySelector(".pre")
-        let count = slider.getAttribute("data-count")
-
-        next.onclick = function () {
-            let slide = slider.getAttribute("data-slide")
-            let first_item = slider.getAttribute("data-first-item")
-            let last_item = slider.getAttribute("data-last-item")
-            
-        
-
-            let slider_items = slider.querySelectorAll(".slider-item")
-            show = 0
-            if (last_item < slider_items.length) {
-                console.log(`${last_item} - ${slider_items.length}`)
-                for (let i = 0; i < slider_items.length; i++) {
-
-                    if (i < last_item) {
-                        slider_items[i].classList.remove("show")
-                    }
-                    if (i >= last_item && show <= count) {
-                        
-                        slider_items[i].classList.add("show")
-                        show++
-                        if (slider_items[i].classList.contains("big")) {
-                            count--
-                        }
-                        if (i + 1 == slider_items.length) {
-                            next.classList.remove("active")
-                            next.setAttribute("disabled", "")
-                        }
-
-                    }
-
-                }
-            }
-            document.querySelector(".slider.portfolio").setAttribute("data-last-item", (+last_item + +count));
-            document.querySelector(".slider.portfolio").setAttribute("data-first-item", ++last_item);
-            document.querySelector(".slider.portfolio").setAttribute("data-slide", ++slide);
-
-        }
-
-        pre.onclick = function () {
-            let slider_items = slider.querySelectorAll(".slider-item")
-            show = 0
-
-        }
-    })
-*/
+  
     
         slider_nav.forEach((item) => {
             let slider = item.parentNode.querySelector(".slider-card")
@@ -124,7 +56,11 @@ function load() {
                 pre.classList.remove("active")
             }
         })
-    
+        
+        document.querySelector(".mobile-menu-button").onclick = function(){
+            this.classList.toggle("active")
+            document.querySelector("header nav").classList.toggle("active")
+        }
     
     
 
